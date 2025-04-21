@@ -24,15 +24,44 @@
         <div class="container">
             <h2>Meine Projekte</h2>
             <div class="project-card">
-                <h3 class="project-title">Projekt 1: Web-App für Task Management</h3>
-                <p class="project-description">Eine intuitive Web-Anwendung zur Verwaltung von Aufgaben. Entwickelt mit React und Node.js. Benutzer können Aufgaben erstellen, bearbeiten und in verschiedene Kategorien unterteilen.</p>
+                <h3 class="project-title">Projekt 1: Website zu Bewertung von Produkten</h3>
+                <p class="project-description">
+                    Eine intuitive Web-Anwendung zur Bewertung von Produkten.
+                    Benutzer können Produkte bewerten, Administratoren können Produkte erstellen oder bearbeiten.
+                    Entwickelt mit Symfony 7.
+                </p>
             </div>
             <div class="project-card">
-                <h3 class="project-title">Projekt 2: E-Commerce Website</h3>
-                <p class="project-description">Ein Online-Shop, der mit modernen Web-Technologien und einem benutzerfreundlichen Design entwickelt wurde. Implementiert mit HTML, CSS, JavaScript und einer Backend-API in Python.</p>
+                <h3 class="project-title">Projekt 2: Kanban-Board</h3>
+                <p class="project-description">
+                    Ein Kanban-Board zur Planung von Aufgaben.
+                    Benutzer können neue Aufgaben anlegen. Aufgaben können von Benutzern kommentiert werden.
+                    Entwickelt mit Symfony 5 & Vue.js 3
+                </p>
             </div>
             <div class="project-card">
-                <h3 class="project-title">Projekt 3: Portfolio Website</h3>
+                <h3 class="project-title">Projekt 3: Zeiterfassung</h3>
+                <p class="project-description">
+                    Einfache Zeiterfassung mit Möglichkeiten zur Auswertung.
+                    Entwickelt in Symfony 5
+                </p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Projekt 4: Catender Prototype</h3>
+                <p class="project-description">
+                    Spielbeschreibung
+                    Entwickelt in Unreal Engine 5 und C++
+                </p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Projekt 4: Catender Prototype</h3>
+                <p class="project-description">
+                    Spielbeschreibung
+                    Entwickelt in Unity Engine 2024 und C#
+                </p>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">Projekt 6: Portfolio Website</h3>
                 <p class="project-description">Meine eigene Portfolio-Webseite! Entwickelt mit HTML, CSS und ein bisschen JavaScript. Diese Seite ist responsive und bietet eine gute Benutzererfahrung auf allen Geräten.</p>
             </div>
         </div>
