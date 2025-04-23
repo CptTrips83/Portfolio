@@ -13,10 +13,7 @@
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2>Über mich</h2>
-            <p>Ich bin ein leidenschaftlicher Software- und Web-Entwickler mit Erfahrung in modernen Web-Technologien. Ich liebe es, Lösungen zu entwickeln, die die Benutzererfahrung verbessern und echte Probleme lösen. Meine Kenntnisse umfassen JavaScript, Python, React, Node.js und mehr.</p>
-        </div>
+        <Biography />
     </section>
 
     <!-- Projects Section -->
@@ -81,7 +78,7 @@
             <p>LinkedIn: <a href="https://www.linkedin.com/in/max-mustermann" target="_blank">max-mustermann</a></p>
             <div class="social-links">
                 <a href="https://github.com/maxmustermann" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/max-mustermann" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/jan-peter-wittig-727658228/" target="_blank">LinkedIn</a>
                 <a href="https://twitter.com/maxmustermann" target="_blank">Twitter</a>
             </div>
         </div>
@@ -89,122 +86,14 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Max Mustermann. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2025 Jan-Peter Wittig. Alle Rechte vorbehalten.</p>
     </footer>
 </template>
 
 <script setup lang="ts">
-
+    import Biography from "@/components/Portfolio/Biography.vue";
 </script>
 
 <style scoped>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        color: #333;
-        @media (prefers-color-scheme: dark) {
-            background-color: #333;
-            color: #f4f4f4 ;
-        }
-    }
 
-    header {
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        text-align: center;
-    }
-
-    header h1 {
-        margin: 0;
-        font-size: 2.5rem;
-    }
-
-    nav {
-        background-color: #444;
-        padding: 10px;
-        text-align: center;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin: 0 15px;
-        font-size: 1.1rem;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    section {
-        padding: 50px 20px;
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .about, .projects, .contact {
-        margin-bottom: 40px;
-    }
-
-    h2 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
-
-    .project-card {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin-bottom: 20px;
-        transition: transform 0.3s ease-in-out;
-        @media (prefers-color-scheme: dark) {
-            background-color: #333;
-        }
-    }
-
-    .project-card:hover {
-        transform: scale(1.05);
-    }
-
-    .project-title {
-        font-size: 1.5rem;
-        color: #333;
-        margin-bottom: 10px;
-        @media (prefers-color-scheme: dark) {
-            color: #fff;
-        }
-    }
-
-    .project-description {
-        color: #666;
-    }
-
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
-
-    .social-links a {
-        margin: 0 10px;
-        color: white;
-        font-size: 1.2rem;
-        text-decoration: none;
-    }
-
-    .social-links a:hover {
-        color: #aaa;
-    }
 </style>
