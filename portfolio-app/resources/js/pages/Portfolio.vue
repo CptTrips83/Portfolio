@@ -33,14 +33,22 @@
                 <p class="project-description">
                     Ein Kanban-Board zur Planung von Aufgaben.
                     Benutzer können neue Aufgaben anlegen. Aufgaben können von Benutzern kommentiert werden.
+                    Zu Testzwecken wurde eine einfache Authentifizierung implementiert. Für Besucher kann der Besucher "Gast"
+                    verwendet werden. Das zugehörige Passwort ist "guest".
                     Entwickelt mit Symfony 5, PHP 8.3 & Vue.js 3
                 </p>
+                <div class="project-links">
+                    <a target="_blank" class="button align-left" href="https://board.rentner-coding-nordheide.de/home/board">Link zur Website</a>
+                    <a target="_blank" class="button align-right" href="https://github.com/CptTrips83/KanbanBoard">Link zum Repository</a>
+                </div>
             </div>
             <div class="project-card">
                 <h3 class="project-title">Projekt 3: Zeiterfassung</h3>
                 <p class="project-description">
                     Einfache Zeiterfassung mit Möglichkeiten zur Auswertung.
-                    Entwickelt in Symfony 5, PHP 7.4 & JavaScript.
+                    Zu Testzwecken wurde eine einfache Authentifizierung implementiert. Für Besucher kann der Besucher "Gast"
+                    verwendet werden. Das zugehörige Passwort ist "guest".
+                    Entwickelt in Symfony 5, PHP 7.4 & JavaScript
                 </p>
             </div>
             <div class="project-card">
@@ -55,11 +63,11 @@
                 </p>
             </div>
             <div class="project-card">
-                <h3 class="project-title">Projekt 5: Portfolio Website</h3>
+                <h3 class="project-title">Projekt 6: Portfolio Website</h3>
                 <p class="project-description">
                     Meine eigene Portfolio-Webseite!
                     Entwickelt mit HTML, CSS und ein bisschen JavaScript.
-
+                    Als Fundament und zu Übungszwecken wurde diese Site mit Laravel 12 und Vue.js 3 entwickelt.
                     Diese Seite ist responsive und bietet eine gute Benutzererfahrung auf allen Geräten.
                 </p>
             </div>

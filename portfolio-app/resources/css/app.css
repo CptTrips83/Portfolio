@@ -295,3 +295,18 @@ footer {
 .social-links a:hover {
     color: #aaa;
 }
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+a.align-left {
+    margin-left: 10px;
+}
+a.align-right {
+    margin-left: auto;
+}
