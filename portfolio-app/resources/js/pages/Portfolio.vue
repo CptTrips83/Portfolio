@@ -40,25 +40,22 @@
                 <h3 class="project-title">Projekt 3: Zeiterfassung</h3>
                 <p class="project-description">
                     Einfache Zeiterfassung mit Möglichkeiten zur Auswertung.
-                    Entwickelt in Symfony 5, PHP 7.4 & JavaScript
+                    Entwickelt in Symfony 5, PHP 7.4 & JavaScript.
                 </p>
             </div>
             <div class="project-card">
                 <h3 class="project-title">Projekt 4: Catender Prototype</h3>
                 <p class="project-description">
-                    Spielbeschreibung
-                    Entwickelt in Unreal Engine 5 und C++
+                    Ein Sidescroller Tower Defense Spiel.<br>
+                    Entwickelt in Unreal Engine 5 und C++.<br>
+                    An festen Punkten in der Spielwelt können Rohstoffe dafür verwendet werden,
+                    um Gebäude zu bauen oder verschiedene Helfer anzuheuern.
+                    Das Ziel des Spiels ist es, so lange wir möglich zu überleben.
+                    Das Spiel ist entstanden, um die C++ Entwicklung in der Unreal Engine zu vertiefen.
                 </p>
             </div>
             <div class="project-card">
-                <h3 class="project-title">Projekt 5: Lethal Space</h3>
-                <p class="project-description">
-                    Spielbeschreibung
-                    Entwickelt in Unity Engine 2024 und C#
-                </p>
-            </div>
-            <div class="project-card">
-                <h3 class="project-title">Projekt 6: Portfolio Website</h3>
+                <h3 class="project-title">Projekt 5: Portfolio Website</h3>
                 <p class="project-description">
                     Meine eigene Portfolio-Webseite!
                     Entwickelt mit HTML, CSS und ein bisschen JavaScript.
