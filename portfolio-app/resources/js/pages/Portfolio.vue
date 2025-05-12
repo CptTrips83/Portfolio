@@ -10,12 +10,10 @@
         <a href="#projects">Projekte</a>
         <a href="#contact">Kontakt</a>
     </nav>
-
     <!-- About Section -->
     <section id="about" class="about">
         <biography />
     </section>
-
     <!-- Projects Section -->
     <section id="projects" class="projects bg-gray-900">
         <div class="container">
