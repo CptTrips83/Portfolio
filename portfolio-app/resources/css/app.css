@@ -175,7 +175,7 @@ body {
 }
 
 header {
-    @apply bg-[#5759F7] dark:bg-gray-600;
+    @apply bg-[#5759F7] dark:bg-[#4a5565];
     @apply text-black dark:text-white;
     padding: 20px;
     text-align: center;
@@ -187,7 +187,7 @@ header h1 {
 }
 
 nav {
-    @apply bg-[#578CF7] dark:bg-gray-500;
+    @apply bg-[#578CF7] dark:bg-[#496389];
     @apply text-black dark:text-white;
     padding: 10px;
     text-align: center;
@@ -212,7 +212,7 @@ section {
 .container {
     @apply bg-[#57BFF7]/75;
     @apply text-black;
-    @apply dark:bg-gray-700/75;
+    @apply dark:bg-[#496389]/75;
     @apply dark:text-white;
     max-width: 1200px;
     margin: 0 auto;
@@ -239,7 +239,7 @@ h2 {
 }
 
 .project-card {
-    @apply bg-[#578CF7]/50 dark:bg-gray-600/50;
+    @apply bg-[#578CF7]/50 dark:bg-[#496389]/50;
     @apply text-black dark:text-white;
 
     padding: 20px;
@@ -267,7 +267,7 @@ h2 {
 }
 
 footer {
-    @apply bg-[#578CF7] dark:bg-gray-500;
+    @apply bg-[#578CF7] dark:bg-[#496389];
     @apply text-black dark:text-white;
     text-align: center;
     padding: 15px;

@@ -13,10 +13,10 @@
             py-2.5
             w-[100%]
             focus:z-10
-            dark:bg-gray-500
-            dark:hover:bg-gray-700
+            dark:bg-[#2c73de]
+            dark:hover:bg-[#424D5E]
             focus:outline-none
-            dark:focus:ring-gray-800
+            dark:focus:ring-[#2d3034]
             dark:text-gray-400
             !important"
         :href=this.projectLink
