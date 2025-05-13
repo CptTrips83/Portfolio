@@ -81,9 +81,9 @@
                 <p>Email: <a href="mailto:max.mustermann@email.com">max.mustermann@email.com</a></p>
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/jan-peter-wittig-727658228/" target="_blank">jan-peter-wittig</a></p>
                 <div class="social-links">
-                    <a href="https://github.com/maxmustermann" target="_blank">GitHub</a>
+                    <a href="https://github.com/CptTrips83" target="_blank">GitHub</a>
                     <a href="https://www.linkedin.com/in/jan-peter-wittig-727658228/" target="_blank">LinkedIn</a>
-                    <a href="https://twitter.com/maxmustermann" target="_blank">Twitter</a>
+                    <a href="https://www.xing.com/profile/JanPeter_Wittig" target="_blank">Xing</a>
                 </div>
             </div>
         </section>
