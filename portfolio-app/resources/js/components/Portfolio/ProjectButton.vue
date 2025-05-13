@@ -17,8 +17,10 @@
             dark:hover:bg-gray-700
             focus:outline-none
             dark:focus:ring-gray-800
-            dark:text-gray-400"
+            dark:text-gray-400
+            !important"
         :href=this.projectLink
+        rel="noopener noreferrer"
     >{{ this.linkLabel }}</a>
 </template>
 

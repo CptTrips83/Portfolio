@@ -27,10 +27,19 @@
 
 export default {
     props: {
-        'projectTitle' : String,
-        'projectLink' : String,
-        'projectRepoLink' : String,
-    }
+        projectTitle: {
+            type: String,
+            required: true
+        },
+        projectLink: {
+            type: String,
+            required: true
+        },
+        projectRepoLink: {
+            type: String,
+            required: true
+        },
+    },
 };
 </script>
 

@@ -5,15 +5,24 @@
     </header>
 
     <!-- Navigation -->
-    <nav>
-        <a href="#about">Über mich</a>
-        <a href="#projects">Projekte</a>
-        <a href="#contact">Kontakt</a>
+    <nav aria-label="Hauptnavigation">
+        <a
+            href="#about"
+            aria-label="Über mich"
+        >Über mich</a>
+        <a
+            href="#projects"
+            aria-label="Projekte"
+        >Projekte</a>
+        <a
+            href="#contact"
+            aria-label="Kontakt"
+        >Kontakt</a>
     </nav>
     <div class="content">
         <!-- About Section -->
         <section id="about" class="about">
-            <biography />
+            <biography></biography>
         </section>
         <!-- Projects Section -->
         <section id="projects" class="projects">
@@ -70,7 +79,7 @@
                 <h2>Kontakt</h2>
                 <p>Hast du Interesse an einer Zusammenarbeit oder möchtest du mehr erfahren? Kontaktiere mich!</p>
                 <p>Email: <a href="mailto:max.mustermann@email.com">max.mustermann@email.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/max-mustermann" target="_blank">max-mustermann</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/jan-peter-wittig-727658228/" target="_blank">jan-peter-wittig</a></p>
                 <div class="social-links">
                     <a href="https://github.com/maxmustermann" target="_blank">GitHub</a>
                     <a href="https://www.linkedin.com/in/jan-peter-wittig-727658228/" target="_blank">LinkedIn</a>
@@ -83,7 +92,8 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Jan-Peter Wittig. Alle Rechte vorbehalten.</p>
+        <p>&copy; {{ new Date().getFullYear() }}
+            Jan-Peter Wittig. Alle Rechte vorbehalten.</p>
     </footer>
 </template>
 
