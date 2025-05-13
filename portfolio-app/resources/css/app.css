@@ -168,10 +168,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-indigo-500;
-    @apply text-black;
-    @apply dark:bg-gray-700;
-    @apply dark:text-white;
 
     font-family: Arial, sans-serif;
     margin: 0;
@@ -179,7 +175,7 @@ body {
 }
 
 header {
-    @apply bg-indigo-400 dark:bg-gray-600;
+    @apply bg-[#5759F7] dark:bg-gray-600;
     @apply text-black dark:text-white;
     padding: 20px;
     text-align: center;
@@ -191,7 +187,7 @@ header h1 {
 }
 
 nav {
-    @apply bg-indigo-300 dark:bg-gray-500;
+    @apply bg-[#578CF7] dark:bg-gray-500;
     @apply text-black dark:text-white;
     padding: 10px;
     text-align: center;
@@ -209,21 +205,32 @@ nav a:hover {
 }
 
 section {
-    @apply bg-indigo-500;
-    @apply text-black;
-    @apply dark:bg-gray-700;
-    @apply dark:text-white;
+
     padding: 50px 20px;
 }
 
 .container {
+    @apply bg-[#57BFF7]/75;
+    @apply text-black;
+    @apply dark:bg-gray-700/75;
+    @apply dark:text-white;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .about, .projects, .contact {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.content {
+    @apply dark:bg-[url(/images/dark-bg.png)];
+    @apply bg-[url(/images/light-bg.png)];
+    @apply w-full;
+    @apply h-full;
+    @apply bg-cover;
+    @apply bg-center;
+    @apply bg-no-repeat;
 }
 
 h2 {
@@ -232,8 +239,9 @@ h2 {
 }
 
 .project-card {
-    @apply bg-indigo-400 dark:bg-gray-600;
+    @apply bg-[#578CF7]/50 dark:bg-gray-600/50;
     @apply text-black dark:text-white;
+
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -259,7 +267,7 @@ h2 {
 }
 
 footer {
-    @apply bg-indigo-300 dark:bg-gray-500;
+    @apply bg-[#578CF7] dark:bg-gray-500;
     @apply text-black dark:text-white;
     text-align: center;
     padding: 15px;
@@ -279,14 +287,6 @@ footer {
     color: #aaa;
 }
 
-a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
-    text-decoration: none;
-}
 a.align-left {
     margin-left: 10px;
 }

@@ -2,10 +2,10 @@
     <a target="_blank" class="
             text-center
             text-black
-            bg-indigo-200
-            hover:bg-indigo-300
+            bg-[#5759F7]/75
+            hover:bg-[#57F2F7]/75
             focus:ring-4
-            focus:ring-indigo-300
+            focus:ring-[#57F2F7]/75
             font-medium
             rounded-lg
             text-m
