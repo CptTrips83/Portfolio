@@ -1,6 +1,6 @@
 <template>
     <div class="project-card">
-        <h3 class="project-title">{{ this.projectTitle }}</h3>
+        <h3 class="project-title">{{ projectTitle }}</h3>
         <p class="project-description">
             <slot>
 
@@ -8,11 +8,11 @@
         </p>
         <div class="flex flex-col items-center">
             <ProjectButton
-                :project-link=this.projectLink
+                :project-link=projectLink
                 linkLabel="Link zur Website"
             />
             <ProjectButton
-                :project-link=this.projectRepoLink
+                :project-link=projectRepoLink
                 linkLabel="Link zum Repository"
             />
         </div>
