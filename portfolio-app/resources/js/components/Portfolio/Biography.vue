@@ -7,9 +7,9 @@
             oder dem Laravel Framework.<br>
             Für die Entwicklung von passenden Frontends nutze ich Vue.JS.<br>
             In meiner bisherigen Laufbahn bei der Bauer Media Group bin ich primär als System-Administrator tätig.
-            Im Rahmen meiner Tätigkeit habe ich zusätzlich die Aufgabe übernommen ein Legacy-System in PHP neu zu entwickeln.
-            Dadurch war es mir möglich viel über moderne Softwareentwicklung zu lernen. Konkret habe ich mir durch dieses Projekt
-            die gängigsten Entwurfsmuster und das Testgetriebene entwickeln angeeignet.
+            Im Rahmen meiner Tätigkeit habe ich zusätzlich die Aufgabe übernommen Legacy-Systeme in PHP neu zu entwickeln.
+            Dadurch war es mir möglich viel über moderne Softwareentwicklung zu lernen. Konkret habe ich mir durch diese Projekte
+            die gängigsten Design-Patterns und Test-Driven Development angeeignet.
             Die Nähe zu Hardware und Betriebssystemen durch meine Ausbildung als Fachinformatiker Systemintegration und
             meine Tätigkeit als Sys-Admin haben sich auch in Bereich Softwareentwicklung bezahlt gemacht.
 
