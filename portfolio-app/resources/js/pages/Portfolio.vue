@@ -93,13 +93,14 @@
     <!-- Footer -->
     <footer>
         <p>&copy; {{ new Date().getFullYear() }}
-            Jan-Peter Wittig. Alle Rechte vorbehalten.</p>
+            Jan-Peter Wittig. Alle Rechte vorbehalten. | <Link href="/impressum">Impressum</Link></p>
     </footer>
 </template>
 
 <script setup lang="ts">
     import Biography from "@/components/Portfolio/Biography.vue";
     import ProjectCard from "@/components/Portfolio/ProjectCard.vue";
+    import { Link } from '@inertiajs/vue3';
 </script>
 
 <style scoped>
