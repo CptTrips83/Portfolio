@@ -29,16 +29,7 @@
             <div class="container">
                 <h2>Meine Projekte</h2>
                 <project-card
-                    project-title = 'Projekt 1: Website zu Bewertung von Produkten'
-                    project-link='https://canrate.rentner-coding-nordheide.de/public/cannabis/product/'
-                    project-repo-link="https://github.com/CptTrips83/canRate"
-                >
-                    Entwickelt mit Symfony 7, PHP 8.3 & JavaScript.<br>
-                    Eine intuitive Web-Anwendung zur Bewertung von Produkten.<br>
-                    Benutzer können Produkte bewerten, Administratoren können Produkte erstellen oder bearbeiten.
-                </project-card>
-                <project-card
-                    project-title = 'Projekt 2: Kanban-Board'
+                    project-title = 'Projekt 1: Kanban-Board'
                     project-link='https://board.rentner-coding-nordheide.de/home/board'
                     project-repo-link="https://github.com/CptTrips83/KanbanBoard"
                 >
@@ -49,7 +40,7 @@
                     verwendet werden. Das zugehörige Passwort ist "guest".
                 </project-card>
                 <project-card
-                    project-title = 'Projekt 3: Catender Prototype'
+                    project-title = 'Projekt 2: Catender Prototype'
                     project-link='https://cpttrips83.itch.io/catender'
                     project-repo-link="https://github.com/CptTrips83/Catender02"
                 >
@@ -59,6 +50,15 @@
                     um Gebäude zu bauen oder verschiedene Helfer anzuheuern.
                     Das Ziel des Spiels ist es, so lange wir möglich zu überleben.
                     Das Spiel ist entstanden, um die C++ Entwicklung in der Unreal Engine zu vertiefen.
+                </project-card>
+                <project-card
+                    project-title = 'Projekt 3: Website zu Bewertung von Produkten'
+                    project-link='https://canrate.rentner-coding-nordheide.de/public/cannabis/product/'
+                    project-repo-link="https://github.com/CptTrips83/canRate"
+                >
+                    Entwickelt mit Symfony 7, PHP 8.3 & JavaScript.<br>
+                    Eine intuitive Web-Anwendung zur Bewertung von Produkten.<br>
+                    Benutzer können Produkte bewerten, Administratoren können Produkte erstellen oder bearbeiten.
                 </project-card>
                 <project-card
                     project-title = 'Projekt 4: Portfolio Website'
